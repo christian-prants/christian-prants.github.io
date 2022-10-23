@@ -1,0 +1,13 @@
+.project {
+    width: 100%;
+    background-color: #18191f;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-flow: row wrap;
+
+    margin-left: 2.5%;
+}
