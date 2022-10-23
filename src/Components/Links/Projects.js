@@ -19,8 +19,8 @@ const Projects = () => {
         imgPath={img04}
         title='Simple Calculator'
         description='Uma calculadora com funções simples de divisão, multiplicação, subtração e soma.'
-        linkGHProject='https://github.com/christian-prants/My-Portfolio'
-        linkGHPage='https://christian-prants.github.io/My-Portfolio/'
+        linkGHProject='https://github.com/christian-prants/simple-calculator'
+        linkGHPage='https://christian-prants.github.io/simple-calculator'
       />
       <Card 
         id='3'
