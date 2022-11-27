@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;900&display=swap');
+@import './styles/mixins.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; 
+  scroll-behavior: smooth;
+
+  @include respond(small_tab) {
+    font-size: 40%; 
+  }
+
+  @include respond(big_desk) {
+    font-size: 75%; 
+  }
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  background-color: #272727;
+}

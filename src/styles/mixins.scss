@@ -1,0 +1,17 @@
+@mixin respond ($breakpoint) {  
+    @if $breakpoint == small_tab {
+      @media (max-width: 53.1em) {@content}; //850px
+    }
+  
+    @if $breakpoint == avg_tab {
+      @media (max-width: 56.25em) {@content};   //900px
+    }
+  
+    @if $breakpoint == med_desk {
+      @media (max-width: 75em) {@content};    //1200px
+    }
+  
+    //@if $breakpoint == big_desk {
+    //  @media (min-width: 112.5em) {@content};    //1800px
+    //}
+}

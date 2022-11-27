@@ -1,0 +1,16 @@
+.projects_ {
+    //height: 100vh;
+    overflow: auto;
+    margin: 5rem 0 0 10rem;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    flex-wrap: wrap;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
