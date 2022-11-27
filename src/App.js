@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route exact path = "/" element = { <About /> } />
+        <Route exact path = "/My-Portfolio" element = { <About /> } />
         <Route path = "/projects" element = { <Projects /> } />
       </Routes>
       <Footer />
