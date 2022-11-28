@@ -20,12 +20,13 @@ const About = () => {
                 <p> Olá! 
                     <br /><br />
                     Me chamo Christian, e sou um desenvolvedor <br />
-                    Full-Stack, com muita experiência em design, <br /> 
-                    moro em Santa Catarina.
+                    Front-End, com muita experiência em design, <br /> 
+                    morando em Santa Catarina.
                     <br /><br />
                     Atualmente trabalho com motion design  <br />
                     em uma fintech, onde trago à vida designs <br /> 
-                    para web, vídeos e muito mais... 
+                    para web, vídeos e continuo estudando <br />
+                    com o objetivo de atuar como dev.
                     
                     <br /><br />
                     Você pode me encontrar pelo meu LinkedIn!
