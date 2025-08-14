@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Meu Projeto 1",
+        "description": "Descrição do projeto 1",
+        "url": "https://github.com/SEU_USERNAME/meu-projeto-1",
+        "openGraphImageUrl": "https://via.placeholder.com/300x200.png?text=Projeto+1"
+    },
+    {
+        "name": "Meu Projeto 2",
+        "description": "Descrição do projeto 2",
+        "url": "https://github.com/SEU_USERNAME/meu-projeto-2",
+        "openGraphImageUrl": "https://via.placeholder.com/300x200.png?text=Projeto+2"
+    }
+]
