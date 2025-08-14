@@ -1,0 +1,149 @@
+@use './themes' as *;
+@use './mixins' as mxns;
+
+.footer {
+    height: 2.5rem;
+    background-color: var(--footer-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {    
+    width: 2.5rem;   
+    height: 3dvh;
+      
+    fill: var(--footer-icon-color);  
+
+    &.--adjust {
+        height: 2.9dvh !important;
+    }
+}
+
+.icon:hover {
+    fill: var(--highlight-color);
+}
+
+.icon2 {      
+    width: 2rem;
+    height: 2rem;   
+    fill: var(--highlight-color);  
+}
+
+.main {
+    height: calc(100dvh - 2.5rem);
+    width: 100%;
+    padding: 4% 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+    z-index: 1;
+}
+
+.excerpt {
+    width: 100%;
+    padding: min(1rem, 10%);
+    line-height: clamp(1.5rem, 1.6rem, 1.8rem);
+    align-self: flex-start;
+
+    & h2 {
+        margin: 0 0 .5rem 0;
+        color: var(--sub-title);
+        font-size: clamp(1.5rem, 2rem, 3rem);
+        font-weight: 300;
+    }
+
+    & span {
+        font-size: clamp(.9rem, 1.4rem, 1.9rem);
+        font-weight: 500;
+        color: var(--highlight-color);
+    }
+
+    & p {
+        font-size: clamp(.7rem, 1.4rem, 1.6rem);
+        margin: .5rem 0;
+        text-align: justify;
+        font-weight: 400;
+    }
+}
+
+@include mxns.respond ('med_desk') {
+    .main {
+        height: calc(100% - 2rem);
+    }
+
+    .about {
+        width: 75% !important;
+        margin: 2rem 0 !important;
+        line-height: 1.5rem !important; 
+
+        & p {
+            font-size: 1rem !important;
+        }
+    }
+
+    .footer {
+        height: 2rem !important;
+    }
+}
+
+@include mxns.respond ('mobile') {
+    .about {
+        width: 95% !important;
+        margin: 0 !important;
+        overflow-y: scroll;
+
+        .container-about {
+            .img-about {
+                float: none !important;
+                margin: 0 !important;
+                width: auto !important;
+            }
+        }
+    }
+}
+
+.about {
+    width: 100%;
+    padding: min(1rem, 10%);
+    margin: 5rem 0;
+    line-height: clamp(2rem, 2.4rem, 3rem);    
+
+    .container-about {
+        .img-about {
+            float: left;
+            width: clamp(10dvw, 15dvw, 20dvw);
+            margin: 0 1rem .5rem 0;
+
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                object-fit: cover; 
+            }
+        }
+
+        & p {
+            font-size: clamp(1rem, calc(1dvw + .4rem), 2rem);
+            text-align: justify;
+            margin: 0;
+
+            & span {
+                color: var(--highlight-color);
+            }
+        }
+    }
+}
+
+.tech-stack {
+    width: calc(100dvw - 35dvw);
+    height: 100dvh;
+    padding: min(1rem, 10%);
+    border: .2rem solid var(--accent-color);
+    flex: 1;
+}
+
+.navbar {
+    background-color: var(--accent-color);
+}

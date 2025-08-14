@@ -1,0 +1,20 @@
+@use './variables' as vars;
+
+
+:root {
+  --bg-color: #{vars.$regular-background-color};
+  --sub-title: #{vars.$regular-sub-title-color};
+  --text-color: #{vars.$regular-color};
+  --highlight-color: #{vars.$regular-accent-color};
+  --footer-color: #{vars.$regular-footer-color};
+  --footer-icon-color: #{vars.$regular-footer-icon-color};
+}
+
+.dark {
+  --bg-color: #{vars.$dark-background-color};
+  --sub-title: #{vars.$dark-sub-title-color};
+  --text-color: #{vars.$dark-color};
+  --highlight-color: #{vars.$dark-accent-color};
+  --footer-color: #{vars.$dark-footer-color};
+  --footer-icon-color: #{vars.$dark-footer-icon-color};
+}

@@ -1,0 +1,32 @@
+@use './styles/variables' as vars;
+@use './styles/mixins' as mxns;
+@use './styles/themes';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100dvh;
+  min-width: 400px;
+  margin: 0;
+
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: vars.$primary-font;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  min-width: 400px;
+
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+#root {
+  height: 100%;
+}

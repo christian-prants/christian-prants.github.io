@@ -1,13 +1,12 @@
-<p display="inline" align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/christian-prants/My-Portfolio?color=green&style=flat-square">
-</p>
+# React + Vite
 
-# Portfolio
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Essa é a segunda versão do meu portfólio, mais atualizado nas boas práticas de desenvovlimento de aplicações. Aqui é onde mostro meus projetos e meus avanços nas tecnologias que tenho contato.
+Currently, two official plugins are available:
 
-## Preview
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Procurei deixar o mais direto possível a visualização do resumo sobre minhas informações e as tecnologias que utilizo, além de manter uma página dedicada para meus projetos com uma breve exibição de cada um deles, e em ambas as páginas podem ser encontrados os links para meu LinkedIn e Github.
+## Expanding the ESLint configuration
 
-<img src="src/assets/gifs/portfolio.gif" height=200 />
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,0 +1,21 @@
+@mixin respond ($size) {  
+  @if $size == 'mobile' {
+    @media (max-width: 26.875em) {@content};  //430px
+  }
+
+  @if $size == 'small_tab' {
+    @media (max-width: 53.1em) {@content};    //850px
+  }
+
+  @if $size == 'avg_tab' {
+    @media (max-width: 56.25em) {@content};   //900px
+  }
+
+  @if $size == 'med_desk' {
+    @media (max-width: 1280px) {@content};      //1200px
+  }
+
+  //@if $size == big_desk {
+  //  @media (min-width: 112.5em) {@content}; //1800px
+  //}
+}
