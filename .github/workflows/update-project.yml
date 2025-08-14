@@ -1,0 +1,50 @@
+name: Update Project JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub App token
+        id: generate_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Fetch project via GraphQL API
+        run: |
+          QUERY='{
+            user(login: "${{ secrets.APP_LOGIN }}") {
+              repositories(first: 10, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                nodes {
+                  name
+                  description
+                  url
+                  openGraphImageUrl
+                }
+              }
+            }
+          }'
+
+          mkdir -p public
+          curl -s -H "Authorization: bearer ${{ steps.generate_token.outputs.token }}" \
+               -X POST \
+               -d "{\"query\":\"$QUERY\"}" \
+               https://api.github.com/graphql \
+               | jq '.data.user.repositories.nodes' > public/project.json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/project.json
+          git commit -m "update project.json" || echo "No changes to commit"
+          git push
