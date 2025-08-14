@@ -33,16 +33,19 @@ const Project = () => {
             <section>
                 {
                     project.map(info => (
+                        <Card info={ info } />
+
+                        /*
                         <li key={info.name}>
                             <img src={info.openGraphImageUrl} alt={info.name} width="300" />
 
                             <h3>{info.name}</h3>
                             <p>{info.description}</p>
-
                             <a href={info.url} target="_blank" rel="noopener noreferrer">
                                 Ver no GitHub
                             </a>
                         </li>
+                        */
                     ))
                 }   
             </section>
