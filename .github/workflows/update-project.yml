@@ -21,8 +21,9 @@ jobs:
 
       - name: Fetch project via GraphQL API
         run: |
+          LOGIN=${{ secrets.APP_LOGIN }}
           QUERY='{
-            user(login: "${{ secrets.APP_LOGIN }}") {
+            user(login: \"$LOGIN"\) {
               repositories(first: 10, orderBy: {field: UPDATED_AT, direction: DESC}) {
                 nodes {
                   name
