@@ -21,26 +21,15 @@ jobs:
 
       - name: Fetch project via GraphQL API
         run: |
-          LOGIN=${{ secrets.APP_LOGIN }}
-          QUERY='{
-            user(login: \"$LOGIN"\) {
-              repositories(first: 10, orderBy: {field: UPDATED_AT, direction: DESC}) {
-                nodes {
-                  name
-                  description
-                  url
-                  openGraphImageUrl
-                }
-              }
-            }
-          }'
-
+          QUERY="{ user(login: \\\"christian-prants\\\") { repositories(first: 10, orderBy: {field: UPDATED_AT, direction: DESC}) { nodes { name description url openGraphImageUrl } } } }"
           mkdir -p public
-          curl -s -H "Authorization: bearer ${{ steps.generate_token.outputs.token }}" \
-               -X POST \
-               -d "{\"query\":\"$QUERY\"}" \
-               https://api.github.com/graphql \
-               | jq '.data.user.repositories.nodes' > public/project.json
+          curl -s \
+            -H "Authorization: Bearer ${{ steps.generate_token.outputs.token }}" \
+            -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"query\":\"$QUERY\"}" \
+            https://api.github.com/graphql \
+            | jq '.data.user.repositories.nodes' > public/project.json
 
       - name: Commit and push changes
         run: |
