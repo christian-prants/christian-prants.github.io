@@ -29,7 +29,13 @@ jobs:
             -X POST \
             -d "{\"query\":\"$QUERY\"}" \
             https://api.github.com/graphql \
-            | jq '.data.user.repositories.nodes' > public/project.json
+            | jq '[.data.user.repositories.nodes[] | {
+                key: .name,
+                name: .name,
+                description: .description,
+                url: .url,
+                image: .openGraphImageUrl
+              }]' > public/project.json
 
       - name: Commit and push changes
         run: |
