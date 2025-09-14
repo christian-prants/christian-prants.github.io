@@ -1,62 +1,72 @@
 [
   {
+    "key": "shop_cart_api",
+    "name": "shop_cart_api",
+    "description": "API to handle CRUD inside a shopping cart.",
+    "url": "https://github.com/christian-prants/shop_cart_api",
+    "image": "https://opengraph.githubassets.com/2bddebecf559ef578471acc088ec2b6365dfa21ee58f04f431cfa3c6a0973c2f/christian-prants/shop_cart_api"
+  },
+  {
+    "key": "nlw-copa",
+    "name": "nlw-copa",
+    "description": "Creation and management of \"bets\" for World Cup matches of 2022.",
+    "url": "https://github.com/christian-prants/nlw-copa",
+    "image": "https://opengraph.githubassets.com/647363984d4db8c9b9bad49cb1faa834b14c8a44833398b895a621fa8a77f6e2/christian-prants/nlw-copa"
+  },
+  {
+    "key": "busca-endereco",
+    "name": "busca-endereco",
+    "description": "Search engine for CEP/adresses in Brazil.",
+    "url": "https://github.com/christian-prants/busca-endereco",
+    "image": "https://opengraph.githubassets.com/cda2cb94e5d5aad1fb9e3524cfd361fe3e832445c420f62bbee34747a65860c7/christian-prants/busca-endereco"
+  },
+  {
+    "key": "Cash_App",
+    "name": "Cash_App",
+    "description": "Full-stack web application to make transactions and data visualization for those transactions.",
+    "url": "https://github.com/christian-prants/Cash_App",
+    "image": "https://opengraph.githubassets.com/31f51a105b0ff371ed742ffce23299ccc8c0eda0411e29e8914efb589463383b/christian-prants/Cash_App"
+  },
+  {
+    "key": "desafio_Gesplan",
+    "name": "desafio_Gesplan",
+    "description": "Basic CRUD for a challenge",
+    "url": "https://github.com/christian-prants/desafio_Gesplan",
+    "image": "https://opengraph.githubassets.com/387490f7e242095fe4476903c3927cb965a34c89f60e6c62cc8bb76929ed52c9/christian-prants/desafio_Gesplan"
+  },
+  {
+    "key": "eVolve_fintech",
+    "name": "eVolve_fintech",
+    "description": "Basic layout for college project",
+    "url": "https://github.com/christian-prants/eVolve_fintech",
+    "image": "https://opengraph.githubassets.com/eac516b99f78b50831a18066b7b3f4568e75372fee54654f67dd941240f09ecc/christian-prants/eVolve_fintech"
+  },
+  {
+    "key": "Disaster-API",
+    "name": "Disaster-API",
+    "description": null,
+    "url": "https://github.com/christian-prants/Disaster-API",
+    "image": "https://opengraph.githubassets.com/562884b2a68a8f068de6672fe4314d4dc508447afc58b5dcfce202cce486fe2c/christian-prants/Disaster-API"
+  },
+  {
+    "key": "christian-prants.github.io",
     "name": "christian-prants.github.io",
     "description": null,
     "url": "https://github.com/christian-prants/christian-prants.github.io",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/e7aec6dedec2f90b3b9b3a9e830ac367c43d87d0918d5456bbf5d842cb45894a/christian-prants/christian-prants.github.io"
+    "image": "https://opengraph.githubassets.com/bea8ab342cfa6c40b99e4c9b94234c4da3c8a7b1e00d87a110b90dceb336073c/christian-prants/christian-prants.github.io"
   },
   {
-    "name": "shop_cart_api",
-    "description": null,
-    "url": "https://github.com/christian-prants/shop_cart_api",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/69940a8af2745faa37ff96c5eef404599c22c1b6804c553653ed9975a1ee247a/christian-prants/shop_cart_api"
-  },
-  {
-    "name": "f_dstr",
-    "description": null,
-    "url": "https://github.com/christian-prants/f_dstr",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/48f42de95ebb1fb212b1d2c703769b6cb457c32b6022704dd0442dba895cc4a9/christian-prants/f_dstr"
-  },
-  {
+    "key": "christian-prants",
     "name": "christian-prants",
     "description": null,
     "url": "https://github.com/christian-prants/christian-prants",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/4d86ff948cee3fef4b1a32ee12b9070703e04c5708178b4762282ff79e617524/christian-prants/christian-prants"
+    "image": "https://opengraph.githubassets.com/4d86ff948cee3fef4b1a32ee12b9070703e04c5708178b4762282ff79e617524/christian-prants/christian-prants"
   },
   {
-    "name": "desafio_Gesplan",
-    "description": null,
-    "url": "https://github.com/christian-prants/desafio_Gesplan",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/50ee393506bc137556863429182a93417efca7334c6eb1e9ae8d822b32dd518f/christian-prants/desafio_Gesplan"
-  },
-  {
-    "name": "eVolve_fintech",
-    "description": "FIAP college exercise",
-    "url": "https://github.com/christian-prants/eVolve_fintech",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/15595f67b17170d89da52da4e8e85ac3dc18f4c04c246079b21dcdb30f200c8e/christian-prants/eVolve_fintech"
-  },
-  {
-    "name": "Cash_App",
-    "description": null,
-    "url": "https://github.com/christian-prants/Cash_App",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/e8bd179e3837f34f606923eae45d64aa3224ad3850f853bd8c04ab858cf7dc02/christian-prants/Cash_App"
-  },
-  {
-    "name": "busca-endereco",
-    "description": null,
-    "url": "https://github.com/christian-prants/busca-endereco",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/c5e84bb09a4b8b2b8e8717deef5783a6ecf35a37bd10e99be1b84b6abaf6a2a0/christian-prants/busca-endereco"
-  },
-  {
-    "name": "nlw-copa",
-    "description": null,
-    "url": "https://github.com/christian-prants/nlw-copa",
-    "openGraphImageUrl": "https://opengraph.githubassets.com/ead0e0c54743badb39db2bce617107c31ae7f2451256ad5299393e904974ca4c/christian-prants/nlw-copa"
-  },
-  {
+    "key": "testes",
     "name": "testes",
     "description": null,
     "url": "https://github.com/christian-prants/testes",
-    "openGraphImageUrl": "https://avatars.githubusercontent.com/u/18754892?s=400&v=4"
+    "image": "https://avatars.githubusercontent.com/u/18754892?s=400&v=4"
   }
 ]
