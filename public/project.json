@@ -1,5 +1,12 @@
 [
   {
+    "key": "christian-prants.github.io",
+    "name": "christian-prants.github.io",
+    "description": null,
+    "url": "https://github.com/christian-prants/christian-prants.github.io",
+    "image": "https://opengraph.githubassets.com/2d16bd55e615e8b0bdbee43700408fbe53402734649053d0a150af110569792b/christian-prants/christian-prants.github.io"
+  },
+  {
     "key": "shop_cart_api",
     "name": "shop_cart_api",
     "description": "API to handle CRUD inside a shopping cart.",
@@ -47,13 +54,6 @@
     "description": null,
     "url": "https://github.com/christian-prants/Disaster-API",
     "image": "https://opengraph.githubassets.com/562884b2a68a8f068de6672fe4314d4dc508447afc58b5dcfce202cce486fe2c/christian-prants/Disaster-API"
-  },
-  {
-    "key": "christian-prants.github.io",
-    "name": "christian-prants.github.io",
-    "description": null,
-    "url": "https://github.com/christian-prants/christian-prants.github.io",
-    "image": "https://opengraph.githubassets.com/bea8ab342cfa6c40b99e4c9b94234c4da3c8a7b1e00d87a110b90dceb336073c/christian-prants/christian-prants.github.io"
   },
   {
     "key": "christian-prants",
