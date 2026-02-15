@@ -1,17 +1,31 @@
 [
   {
-    "key": "christian-prants.github.io",
-    "name": "christian-prants.github.io",
+    "key": "meta_backend_course",
+    "name": "meta_backend_course",
     "description": null,
-    "url": "https://github.com/christian-prants/christian-prants.github.io",
-    "image": "https://opengraph.githubassets.com/6d1db1062ddc9fa6ca47d765e094d2573e0d07c1360980a0cc1ab2db6fb6d346/christian-prants/christian-prants.github.io"
+    "url": "https://github.com/christian-prants/meta_backend_course",
+    "image": "https://avatars.githubusercontent.com/u/18754892?s=400&v=4"
   },
   {
     "key": "shop_cart_api",
     "name": "shop_cart_api",
     "description": "API to handle CRUD inside a shopping cart.",
     "url": "https://github.com/christian-prants/shop_cart_api",
-    "image": "https://opengraph.githubassets.com/2bddebecf559ef578471acc088ec2b6365dfa21ee58f04f431cfa3c6a0973c2f/christian-prants/shop_cart_api"
+    "image": "https://avatars.githubusercontent.com/u/18754892?s=400&v=4"
+  },
+  {
+    "key": "User-List",
+    "name": "User-List",
+    "description": null,
+    "url": "https://github.com/christian-prants/User-List",
+    "image": "https://avatars.githubusercontent.com/u/18754892?s=400&v=4"
+  },
+  {
+    "key": "christian-prants.github.io",
+    "name": "christian-prants.github.io",
+    "description": null,
+    "url": "https://github.com/christian-prants/christian-prants.github.io",
+    "image": "https://opengraph.githubassets.com/babd9346244089e218e15b7acb06530154d2cd00bcb877c5cac54c7ec1e701e4/christian-prants/christian-prants.github.io"
   },
   {
     "key": "nlw-copa",
@@ -54,19 +68,5 @@
     "description": null,
     "url": "https://github.com/christian-prants/Disaster-API",
     "image": "https://opengraph.githubassets.com/562884b2a68a8f068de6672fe4314d4dc508447afc58b5dcfce202cce486fe2c/christian-prants/Disaster-API"
-  },
-  {
-    "key": "christian-prants",
-    "name": "christian-prants",
-    "description": null,
-    "url": "https://github.com/christian-prants/christian-prants",
-    "image": "https://opengraph.githubassets.com/4d86ff948cee3fef4b1a32ee12b9070703e04c5708178b4762282ff79e617524/christian-prants/christian-prants"
-  },
-  {
-    "key": "testes",
-    "name": "testes",
-    "description": null,
-    "url": "https://github.com/christian-prants/testes",
-    "image": "https://avatars.githubusercontent.com/u/18754892?s=400&v=4"
   }
 ]
