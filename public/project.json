@@ -1,5 +1,12 @@
 [
   {
+    "key": "christian-prants.github.io",
+    "name": "christian-prants.github.io",
+    "description": null,
+    "url": "https://github.com/christian-prants/christian-prants.github.io",
+    "image": "https://opengraph.githubassets.com/146b5009a13f5bf07ae3423c410ad2b83f6c25fce304e4b852d28583b0bfa74b/christian-prants/christian-prants.github.io"
+  },
+  {
     "key": "meta_backend_course",
     "name": "meta_backend_course",
     "description": null,
@@ -19,13 +26,6 @@
     "description": null,
     "url": "https://github.com/christian-prants/User-List",
     "image": "https://avatars.githubusercontent.com/u/18754892?s=400&v=4"
-  },
-  {
-    "key": "christian-prants.github.io",
-    "name": "christian-prants.github.io",
-    "description": null,
-    "url": "https://github.com/christian-prants/christian-prants.github.io",
-    "image": "https://opengraph.githubassets.com/babd9346244089e218e15b7acb06530154d2cd00bcb877c5cac54c7ec1e701e4/christian-prants/christian-prants.github.io"
   },
   {
     "key": "nlw-copa",
