@@ -1,10 +1,17 @@
 [
   {
+    "key": "christian-prants",
+    "name": "christian-prants",
+    "description": null,
+    "url": "https://github.com/christian-prants/christian-prants",
+    "image": "https://opengraph.githubassets.com/7d06324ddaa32e6234e0d59f3d456734fe2edd5b556f7372c87594a0d4fc62fe/christian-prants/christian-prants"
+  },
+  {
     "key": "christian-prants.github.io",
     "name": "christian-prants.github.io",
     "description": null,
     "url": "https://github.com/christian-prants/christian-prants.github.io",
-    "image": "https://opengraph.githubassets.com/7d7d7c70279aa0b5a90b284c1ef639ead0af0715e693804eb78a5f2fc9b17421/christian-prants/christian-prants.github.io"
+    "image": "https://opengraph.githubassets.com/0521ea450dcc58451e021a6424397382dd21b0ed81d122a5a6afb1d69135550b/christian-prants/christian-prants.github.io"
   },
   {
     "key": "meta_backend_course",
@@ -61,12 +68,5 @@
     "description": "Basic layout for college project",
     "url": "https://github.com/christian-prants/eVolve_fintech",
     "image": "https://opengraph.githubassets.com/eac516b99f78b50831a18066b7b3f4568e75372fee54654f67dd941240f09ecc/christian-prants/eVolve_fintech"
-  },
-  {
-    "key": "Disaster-API",
-    "name": "Disaster-API",
-    "description": null,
-    "url": "https://github.com/christian-prants/Disaster-API",
-    "image": "https://opengraph.githubassets.com/562884b2a68a8f068de6672fe4314d4dc508447afc58b5dcfce202cce486fe2c/christian-prants/Disaster-API"
   }
 ]
